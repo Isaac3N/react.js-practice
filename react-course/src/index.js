@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Booklist from './Booklist';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Booklist />
   </React.StrictMode>,
   document.getElementById('root')
 );
